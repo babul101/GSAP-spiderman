@@ -24,7 +24,15 @@ section div.split {
     justify-content: center;
 }
 
+section div.split:first-child {
+    background-color: cornflowerblue;
+}
+
 section div.slides {
     width: 500px;
-    height: 800px;
+    height: 750px;
+}
+
+section div.info {
+    max-width: 480px;
 }
