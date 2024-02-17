@@ -31,13 +31,14 @@ section div.split {
 }
 
 section div.split:first-child {
-    background-color: cornflowerblue;
+   
 }
 
 section div.slides {
     width: 500px;
     height: 750px;
     position: relative;
+    overflow: hidden;
 }
 
 section div.slides img {
@@ -46,7 +47,14 @@ section div.slides img {
     left: 0;
     width: 500px;
     height: 750px;
+    display: none;
+   
 }
+
+section div.slides img:first-child {
+    display: block; /* Display the first image */
+}
+
 
 section div.info {
     max-width: 480px;
@@ -59,3 +67,4 @@ section h2 {
 section p {
     margin: 32px 0 0 0;
 }
+
