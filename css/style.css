@@ -10,7 +10,8 @@ body {
   line-height: 1.5;
 
   background: url("../assets/images/background.jpg");
-  color: #ffffff;
+
+  color: #77a0d3;
 }
 
 header {
@@ -89,8 +90,8 @@ section p {
 }
 
 section a {
-  background-color: #ffffff;
-  color: #111111;
+  background-color: #f8e4e4;
+  color: #2477db;
   text-decoration: none;
   font-size: 20px;
   padding: 8px 24px 8px 24px;
@@ -106,6 +107,7 @@ section a img {
   object-fit: cover;
   object-position: center right;
   transition: width 0.25s;
+  /* color: #4993ee; */
 }
 
 section a:hover img {
