@@ -13,10 +13,11 @@
 
 // })
 
-const slides = document.querySelector("section div.slides");
-const images = slides.querySelectorAll("img");
+const slides = document.querySelectorAll("section div.slides");
 
-let current = 0;
+slides.forEach(slide => {
+  let current = 0;
+  const images = slide.querySelectorAll("img");
 
 // Initially, hide all images except the first one
 images.forEach((image, index) => {
@@ -25,7 +26,7 @@ images.forEach((image, index) => {
   }
 });
 
-slides.addEventListener("click", function () {
+slide.addEventListener("click", function () {
   // Hide the current image
   images[current].style.display = "none";
 
@@ -35,3 +36,6 @@ slides.addEventListener("click", function () {
   // Show the next image
   images[current].style.display = "block";
 });
+
+})
+
