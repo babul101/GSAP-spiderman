@@ -1,84 +1,86 @@
 @font-face {
-    font-family: PT Root;
-    src: url(/assets/ptroot.woff2);
-  }
+  font-family: PT Root;
+  src: url(/assets/ptroot.woff2);
+}
 
 body {
-    font-family: PT Root;
-    font-size: 24px;
-    line-height: 1.5;
-    background-color: #000;
-    color: #fff;
+  font-family: PT Root;
+  font-size: 24px;
+  line-height: 1.5;
+  background-color: #000;
+  color: #fff;
 }
 
 header {
-    position: fixed;
-    top: 8px;
-    left: 0;
-    width: 100%;
-    background-color: yellow;
-    z-index: 10000000001;
-    overflow: hidden;
+  position: fixed;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  font-size: 16px;  
+  font-variation-settings: "wght" 800;
+  z-index: 10000000001;
+  overflow: hidden;
 }
 
-header h1,header h2 {
-    display: flex;
+header h1,
+header h2 {
+  display: flex;
 }
 
-h1 span, h2 span {
-    background-color: red;
-    width: 400px;
-    display: inline-block;
-    flex: 0 0 auto;
+h1 span,
+h2 span {
+  width: 150px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+h2 span {
+  width: 350px;
 }
 
 section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
 }
 
 section div.split {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section div.split:first-child {
-   
 }
 
 section div.slides {
-    width: 500px;
-    height: 750px;
-    position: relative;
-    overflow: hidden;
+  width: 500px;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
 }
 
 section div.slides img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 500px;
-    height: 750px;
-    display: none;
-   
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 750px;
+  display: none;
 }
 
 section div.slides img:first-child {
-    display: block; /* Display the first image */
+  display: block; /* Display the first image */
 }
 
-
 section div.info {
-    max-width: 480px;
+  max-width: 480px;
 }
 
 section h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 section p {
-    margin: 32px 0 0 0;
+  margin: 32px 0 0 0;
 }
-
