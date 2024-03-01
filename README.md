@@ -36,8 +36,8 @@ Feel free to use this project as a learning resource or as a template for your o
 Experiment with different GSAP animations and effects to enhance the visual appeal and interactivity of the website.
 
 ## Resources
-[GSAP Documentation](https://gsap.com/)
-[Spiderman Wikipedia Page](https://spiderman.fandom.com/wiki/Spider-Man_Wiki)
+- [GSAP Documentation](https://gsap.com/)
+- [Spiderman Wikipedia Page](https://spiderman.fandom.com/wiki/Spider-Man_Wiki)
 ## Contributing
 Contributions are welcome! If you have any ideas for improving the website or adding new features, feel free to submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
