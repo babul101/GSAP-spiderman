@@ -20,7 +20,7 @@ This project aims to create a simple website dedicated to Spiderman, the iconic 
 
 ```bash
 https://github.com/babul101/GSAP-spiderman.git
-
+```
 2. Navigate to the project directory:
 ```bash
 cd GSAP-spiderman
