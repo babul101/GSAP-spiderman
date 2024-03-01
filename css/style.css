@@ -13,9 +13,23 @@ body {
 
 header {
     position: fixed;
-    top: 24px;
-    left: 24px;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
     z-index: 10000000001;
+    overflow: hidden;
+}
+
+header h1,header h2 {
+    display: flex;
+}
+
+h1 span, h2 span {
+    background-color: red;
+    width: 400px;
+    display: inline-block;
+    flex: 0 0 auto;
 }
 
 section {
