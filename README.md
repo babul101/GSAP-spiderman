@@ -24,7 +24,7 @@ https://github.com/babul101/GSAP-spiderman.git
 2. Navigate to the project directory:
 ```bash
 cd GSAP-spiderman
-
+```
 3. Open the index.html file in your preferred code editor.
 
 4. Start experimenting with GSAP animations in the JavaScript file (script.js) to customize the website.
